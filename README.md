@@ -7,9 +7,13 @@ usermod -aG sudo <userName>
 --------------------------------------------------------------------
 2)FullScreen -
 
-sudo apt update
-sudo apt install build-essential dkms linux-headers-$(uname -r)
-./autorun.sh
+sudo apt update 
+sudo apt install build-essential gcc perl dkms linux-headers-$(uname -r)  
+<Insert guest Additions Diskvfrom options and open it and open in terminal> 
+findmnt  
+ <Copy the VBox_Gas Full DIrectory> 
+ sudo <Directory>/VBoxLinuxAdditions.run
+ sudo reboot
 
 --------------------------------------------------------------------
 3)Pre-Requisite Packages -
