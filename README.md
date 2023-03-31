@@ -1,6 +1,8 @@
 1)SuperUser -
-
-usermod -aG sudo user
+su
+sudo nano /etc/sudoers
+#add the username to the root data below in the format userName ALL=(ALL) ALL
+usermod -aG sudo <userName>
 
 --------------------------------------------------------------------
 2)FullScreen -
