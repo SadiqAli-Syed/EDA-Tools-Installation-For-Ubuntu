@@ -9,9 +9,9 @@ usermod -aG sudo <userName>
 
 sudo apt update 
 sudo apt install build-essential gcc perl dkms linux-headers-$(uname -r)  
-<Insert guest Additions Diskvfrom options and open it and open in terminal> 
+#Insert guest Additions Diskvfrom options and open it and open in terminal 
 findmnt  
- <Copy the VBox_Gas Full DIrectory> 
+ #Copy the VBox_Gas Full DIrectory
  sudo <Directory>/VBoxLinuxAdditions.run
  sudo reboot
 
