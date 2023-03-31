@@ -1,7 +1,7 @@
 1)SuperUser -
 su
 sudo nano /etc/sudoers
-#add the username to the root data below in the format userName ALL=(ALL) ALL
+#add the username to the root data below in the format userName ALL=(ALL) ALL.|||  
 usermod -aG sudo <userName>
 
 --------------------------------------------------------------------
@@ -9,9 +9,9 @@ usermod -aG sudo <userName>
 
 sudo apt update 
 sudo apt install build-essential gcc perl dkms linux-headers-$(uname -r)  
-#Insert guest Additions Diskvfrom options and open it and open in terminal 
+#Insert guest Additions Diskvfrom options and open it and open in terminal.|||  
 findmnt  
- #Copy the VBox_Gas Full DIrectory
+ #Copy the VBox_Gas Full DIrectory.||| 
  sudo <Directory>/VBoxLinuxAdditions.run
  sudo reboot
 
