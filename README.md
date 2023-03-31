@@ -20,8 +20,7 @@ findmnt
 
 sudo apt update
 sudo apt upgrade
-sudo apt install gcc g++ clang vim git
-
+sudo apt install gcc g++ clang vim git build-essential cmake libgsl-dev libboost-dev libboost-program-options-dev
 sudo apt install python3 python3-pip python3-tk git cmake build-essential libboost-dev libboost-iostreams-dev libboost-python-dev swig libfftw3-dev libgsl-dev python3-gi-cairo python3-scipy python3-matplotlib python3-pyqt5 python3-pyqt5.qtsvg python3-pyqt5.qtwebkit python3-pyqt5.qtserialport python3-lxml python3-yaml
 
 4)EDA Tools Installation -
