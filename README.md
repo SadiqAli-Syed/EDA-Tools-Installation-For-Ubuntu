@@ -68,7 +68,7 @@ E)Errors and Failure with OpenTimer:-
                   
           4)Paste errors in the ChatGPT dialogue box and ask for Commands and step by step procedure with explanation to fix it.
   
-     (2) $OpenTimer      ***Command Outputs Nothing***
+     (2) $OpenTimer     ***Command Outputs Nothing***
           
           You can fix it by Following the steps below 
                   1)Check whether the OpenTimer(~/vsdflow/work/tools/OpenTimer) folder has folder named "bin" and 4files inside it with names -(ot-shell, ot-tau15, ot-tau18, ot-utility ) by using "ls" command in respective directories,It=f they exist proceed directly to step4,else copy paste the whole step 2 in terminal
