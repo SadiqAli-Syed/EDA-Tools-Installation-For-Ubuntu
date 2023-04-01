@@ -3,7 +3,7 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                             =>Addressed Issues:
                                 A)Superuser permission aka not in Sudoers file,
                                 B)Running Virtual Machine in FullScreen and Copy-Pasting text btw Windows and Linux,
-                                C)Installing all required packages,
+                                C)Installing all required Packages/Dependencies,
                                 D)EDA tools installation(Same as VSD's Method),Breaks the gcc and g++ packages by the end on of it
                                   in an attempt to turn them to gcc--7, g++--7 versions and make them compatible with cmake,Fix
                                   available in next Step,
