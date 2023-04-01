@@ -4,8 +4,9 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                                 A)Superuser permission aka not in Sudoers file,
                                 B)Running Virtual Machine in FullScreen and Copy-Pasting text btw Windows and Linux,
                                 C)Installing all required packages,
-                                D)EDA tools installation(Same as VSD's Method),Breaks the gcc and g++ packages by the end on of it in an attempt to turn
-                                  them to gcc--7, g++--7 versions and make them compatible with cmake,Fix available in next Step,
+                                D)EDA tools installation(Same as VSD's Method),Breaks the gcc and g++ packages by the end on of it
+                                  in an attempt to turn them to gcc--7, g++--7 versions and make them compatible with cmake,Fix
+                                  available in next Step,
                                 E)Fixing some issues with the above method ("Especially OpenTimer"),
                                 f)Testing if all mentioned Packages have been installed properly.
 
@@ -15,7 +16,7 @@ A)Becomming a SuperUser (sudo capable) -Run the Following Commands in Terminal(O
 
 1)su
 2)sudo nano /etc/sudoers
-------------Go to the Bottom and type <UserName> ALL=(ALL) ALL, Replace <UserName> with your username in the Ubuntu-------------
+       -----Go to the Bottom and type <UserName> ALL=(ALL) ALL, Replace <UserName> with your username in the Ubuntu-----
 3)usermod -aG sudo <UserName>
   For further Assistance in case of failure, refer YT Tutorials on "How to add user to sudoers file/How to become a Superuser in Ubuntu virtual machine"
 
@@ -27,7 +28,7 @@ B)FullScreen & BiDirectional Clipboard-
   
 --From "Devices" option in top bar,Click Insert guest Additions Disk & wait for few secs and click on cd Icon in Docker,Rightclick & open in terminal--
 3)findmnt  
------------Copy the Full DIrectory "/media/<UserName>/VBox_Gas_XYZ and paste in below int he position of <Directory>------------
+      -----Copy the Full DIrectory "/media/<UserName>/VBox_Gas_XYZ and paste in below int he position of <Directory>------
 4)sudo <Directory>/VBoxLinuxAdditions.run
 5)sudo reboot
 6)PowerOff the ubuntu virtual machine and click settings Icon on right in the Oracle VM VirtualBox app,Navigate to General>Advanced>Shared Clipboard and select Bidirectional
