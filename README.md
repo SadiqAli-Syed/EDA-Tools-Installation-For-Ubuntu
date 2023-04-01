@@ -1,42 +1,43 @@
-1)SuperUser -
-su
-sudo nano /etc/sudoers
-#add the username to the root data below in the format userName ALL=(ALL) ALL.|||  
-usermod -aG sudo <userName>
+A)SuperUser -
+1)su
+2)sudo nano /etc/sudoers
+**add the username to the root data below in the format userName ALL=(ALL) ALL.|||  
+3)usermod -aG sudo <userName>
 
 --------------------------------------------------------------------
-2)FullScreen -
+B)FullScreen & Bidirectional Clipboard+Drag&Drop -
 
-sudo apt update 
-sudo apt install build-essential gcc perl dkms linux-headers-$(uname -r)  
-#Insert guest Additions Diskvfrom options and open it and open in terminal.|||  
-findmnt  
- #Copy the VBox_Gas Full DIrectory.||| 
- sudo <Directory>/VBoxLinuxAdditions.run
- sudo reboot
+1)sudo apt update 
+2)sudo apt install build-essential gcc perl dkms linux-headers-$(uname -r)  
+**Insert guest Additions Diskvfrom options and open it and open in terminal.|||  
+3)findmnt  
+**Copy the VBox_Gas Full DIrectory.||| 
+4)sudo <Directory>/VBoxLinuxAdditions.run
+5)sudo reboot
+6)
 
 --------------------------------------------------------------------
-3)Pre-Requisite Packages -
+C)Pre-Requisite Packages -
 
-sudo apt update
-sudo apt upgrade
-sudo apt install gcc g++ clang vim git build-essential cmake libgsl-dev libboost-dev libboost-program-options-dev
-sudo apt install python3 python3-pip python3-tk git cmake build-essential libboost-dev libboost-iostreams-dev libboost-python-dev swig libfftw3-dev libgsl-dev python3-gi-cairo python3-scipy python3-matplotlib python3-pyqt5 python3-pyqt5.qtsvg python3-pyqt5.qtwebkit python3-pyqt5.qtserialport python3-lxml python3-yaml
+1)sudo apt update
+2)sudo apt upgrade
+3)sudo apt install gcc g++ clang vim git build-essential cmake libgsl-dev libboost-dev libboost-program-options-dev
+4)sudo apt install python3 python3-pip python3-tk git cmake build-essential libboost-dev libboost-iostreams-dev libboost-python-dev swig libfftw3-dev libgsl-dev python3-gi-cairo python3-scipy python3-matplotlib python3-pyqt5 python3-pyqt5.qtsvg python3-pyqt5.qtwebkit python3-pyqt5.qtserialport python3-lxml python3-yaml
 
-4)EDA Tools Installation -
+D)EDA Tools Installation -
 
-git clone https://github.com/kunalg123/vsdflow.git
-cd vsdflow
-chmod 777 opensource_eda_tool_install.sh
-./opensource_eda_tool_install.sh
+1)git clone https://github.com/kunalg123/vsdflow.git
+2)cd vsdflow
+3)chmod 777 opensource_eda_tool_install.sh
+4)./opensource_eda_tool_install.sh
 
-./vsdflow spi_slave_design_details.csv 
-./vsdflow picorv32_design_details.csv
+4)./vsdflow spi_slave_design_details.csv 
+5)./vsdflow picorv32_design_details.csv
 
-5)Testing - 
+E)Testing - 
 
-cd outdir_spi_slave
-qflow display spi_slave
+1)cd outdir_spi_slave
+2)qflow display spi_slave
 
 <------------------List of Tools installed-------------------->
 
