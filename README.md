@@ -1,3 +1,11 @@
+<style>
+  /* Set the white-space property to nowrap */
+  body {
+    white-space: nowrap;
+  }
+</style>
+
+
 -----------This Readme consists of solutions to Issues with OpenSource EDA_Tools installation that I, as newbie, have Faced and couldn't find a goto solution---------
                                 Addressed:
                                 A)Superuser permission aka not in Sudoers file,
