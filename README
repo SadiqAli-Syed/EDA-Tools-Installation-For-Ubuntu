@@ -10,7 +10,7 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                                 f)Testing if all mentioned Packages have been installed properly.
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 A)Becomming a SuperUser (sudo capable) -Run the Following Commands in Terminal(One at a Time)
 
 1)su
@@ -19,7 +19,7 @@ A)Becomming a SuperUser (sudo capable) -Run the Following Commands in Terminal(O
 3)usermod -aG sudo <UserName>
   For further Assistance in case of failure, refer YT Tutorials on "How to add user to sudoers file/How to become a Superuser in Ubuntu virtual machine"
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 B)FullScreen & BiDirectional Clipboard-
 
 1)sudo apt update 
@@ -27,12 +27,12 @@ B)FullScreen & BiDirectional Clipboard-
   
 --From "Devices" option in top bar,Click Insert guest Additions Disk & wait for few secs and click on cd Icon in Docker,Rightclick & open in terminal--
 3)findmnt  
-------------------------Copy the Full DIrectory "/media/<UserName>/VBox_Gas_XYZ and paste in below int he position of <Directory>-----------------------------
+-----Copy the Full DIrectory "/media/<UserName>/VBox_Gas_XYZ and paste in below int he position of <Directory>-----
 4)sudo <Directory>/VBoxLinuxAdditions.run
 5)sudo reboot
 6)PowerOff the ubuntu virtual machine and click settings Icon on right in the Oracle VM VirtualBox app,Navigate to General>Advanced>Shared Clipboard and select Bidirectional
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 C) Installing Pre-Requisite Packages/Dependencies -
 
 1)sudo apt update
@@ -40,7 +40,7 @@ C) Installing Pre-Requisite Packages/Dependencies -
 3)sudo apt install gcc g++ clang vim git build-essential cmake libgsl-dev libboost-dev libboost-program-options-dev
 4)sudo apt install python3 python3-pip python3-tk git cmake build-essential libboost-dev libboost-iostreams-dev libboost-python-dev swig libfftw3-dev libgsl-dev python3-gi-cairo python3-scipy python3-matplotlib python3-pyqt5 python3-pyqt5.qtsvg python3-pyqt5.qtwebkit python3-pyqt5.qtserialport python3-lxml python3-yaml
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------------
 D) EDA Tools Installation -
 
 1)git clone https://github.com/kunalg123/vsdflow.git
@@ -48,7 +48,7 @@ D) EDA Tools Installation -
 3)chmod 777 opensource_eda_tool_install.sh
 4)./opensource_eda_tool_install.sh
 
- --------------------------------------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------------------------------------------------------
 E)Errors and Failure with OpenTimer:-
   
      $ "Cmake ../" or "make" Errors:
@@ -58,7 +58,7 @@ E)Errors and Failure with OpenTimer:-
           2) sudo apt install --reinstall python3 python3-pip python3-tk git cmake build-essential libboost-dev libboost-iostreams-dev libboost-python-dev swig libfftw3-dev libgsl-dev python3-gi-cairo python3-scipy python3-matplotlib python3-pyqt5 python3-pyqt5.qtsvg python3-pyqt5.qtwebkit python3-pyqt5.qtserialport python3-lxml python3-yaml
   
     Try to run 'cmake ../' again in the ~vsdflow/work/tools/OpenTimer/build Directory 
-                     ------------------------------------------------------------------------------------------------------------------------------
+                     -------------------------------------------------------------------------------------------------------------
       If error presists,Use ChatGPT as Suggested Below
           3)Use ChatGPT to get Commands to add packages to Environment and Paths, Verify if they are properly configured with commands 
   
@@ -109,7 +109,7 @@ F)Testing,Run One by One.--------You can exit programs by typing exit-----------
 7)qflow display spi_slave
                   
 
-<----------------------------------------------------------------List of Tools installed-------------------------------------------------------------------------->
+<-------------------------------------------List of Tools installed------------------------------------------------->
 
                      1) Yosys - RTL Synthesis
                      2) blifFanout - High fanout net (HFN) synthesis
