@@ -1,4 +1,4 @@
-A)Becomming a SuperUser (sudo capable) -
+A)Becomming a SuperUser (sudo capable) -Run the Following Commands in Terminal
 
 1)su
 2)sudo nano /etc/sudoers
