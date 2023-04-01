@@ -106,9 +106,15 @@ F)Testing,Run One by One.--------You can exit programs by typing exit-----------
 3)yosys
 4)qrouter
 5)opentimer
-6)cd outdir_spi_slave
-7)qflow display spi_slave
+6)sta
+7)qflow
 8)netgen
+9)./vsdflow spi_slave_design_details.csv 
+  cd outdir_spi_slave/
+  qflow display spi_slave
+10)qflow gui
+
+
                   
 
 <-------------------------------------------List of Tools installed------------------------------------------------->
@@ -119,6 +125,6 @@ F)Testing,Run One by One.--------You can exit programs by typing exit-----------
                      4) qrouter - Detailed routing
                      5) magic - VLSI Layout tool
                      6) netgen - LVS
-                     7) OpenTimer - Static timing analysis tool
+                     7) OpenTimer and OpenSTA- Static timing analysis tool
 
 
