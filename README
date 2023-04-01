@@ -108,16 +108,17 @@ F)Testing,Run One by One.--------You can exit programs by typing exit-----------
 5)opentimer
 6)cd outdir_spi_slave
 7)qflow display spi_slave
+8)netgen
                   
 
 <-------------------------------------------List of Tools installed------------------------------------------------->
 
                      1) Yosys - RTL Synthesis
-                     2) blifFanout - High fanout net (HFN) synthesis
+                     2) qflow
                      3) graywolf - Placement
                      4) qrouter - Detailed routing
                      5) magic - VLSI Layout tool
                      6) netgen - LVS
-                     7) OpenTimer and OpenSTA - Static timing analysis tool
+                     7) OpenTimer - Static timing analysis tool
 
 
