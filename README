@@ -75,7 +75,7 @@ E)Errors and Failure with OpenTimer:-
           
           You can fix it by Following the steps below 
                   1)Check whether the OpenTimer(~/vsdflow/work/tools/OpenTimer) folder has folder named "bin" and 4files inside it with names -(ot-shell, ot-tau15, ot-tau18, ot-utility )
-                    by using "ls" command in respective directories,It=f they exist proceed directly to step4,else copy paste the whole step 2 in terminal
+                    by using "ls" command in respective directories,If they exist proceed directly to step4,else copy paste the whole step 2 in terminal
                   
                   2)cd ~/vsdflow/work/tools/
                     sudo rm -r OpenTimer
