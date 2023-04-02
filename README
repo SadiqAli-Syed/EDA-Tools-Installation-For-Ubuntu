@@ -101,7 +101,9 @@ E)Errors and Failure with OpenTimer:-
                   ----------exit bit by typing "exit" without ""-------------------------
                
 
-F)Testing,Run One by One.--------You can exit programs by typing exit-------------------
+F)Testing,Run One by One.
+  --------You can exit programs by typing exit-------------------
+  --------NOTE:Some programs may say error but do show some output,They are perfectly fine,Issue is if they output Nothing------ 
 
 1)magic
 2)graywolf
