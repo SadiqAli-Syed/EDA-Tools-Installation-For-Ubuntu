@@ -1,12 +1,12 @@
 
 This Readme consists of solutions to Issues with OpenSource EDA_Tools installation that I, as newbie, have Faced and wasn't able to find a easy goto solution.
 
-                            <----------------------------------------Addressed Issues--------------------------------------------->
+                            <----------------------------------------Addressed Issues-------------------------------------------->
                  
                                 A) User not in Sudoers file,
                                 B) Running Virtual Machine in FullScreen and Copy-Pasting text btw Windows and Linux,
                                 C) Installing all required Packages/Dependencies,
-                                D) EDA tools installation(Same as VSD's Method),Breaks the gcc and g++ packages by the end on of it
+                                D) EDA tools installation(Same as VSD's Method),Breaks the gcc & g++ packages by the end on of it
                                    in an attempt to turn them to gcc--7, g++--7 versions and make them compatible with cmake,Fix
                                    available in next Step,
                                 E) Fixing some issues with the above method ("Especially OpenTimer"),
@@ -34,8 +34,8 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                  1) sudo apt update 
                  2) sudo apt install build-essential gcc perl dkms linux-headers-$(uname -r) 
   
-                 #From "Devices" option in top bar,Click InsertGuest Additions Disk, wait for few secs and click on cd Icon in Docker,
-                  Rightclick & open in terminal
+                 #From "Devices" option in top bar,Click InsertGuest Additions Disk, wait for few secs and click on cd Icon in
+                  Docker, Rightclick & open in terminal
                  
                  3) findmnt  
                  
@@ -52,9 +52,7 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                  1) sudo apt update
                  2) sudo apt upgrade
                  3) sudo apt install gcc g++ clang vim git build-essential cmake libgsl-dev libboost-dev libboost-program-options-dev
-                 4) sudo apt install python3 python3-pip python3-tk git cmake build-essential libboost-dev libboost-iostreams-dev \
-                    libboost-python-dev swig libfftw3-dev libgsl-dev python3-gi-cairo python3-scipy python3-matplotlib python3-pyqt5 \
-                    python3-pyqt5.qtsvg python3-pyqt5.qtwebkit python3-pyqt5.qtserialport python3-lxml python3-yaml
+                 4) sudo apt install python3 python3-pip python3-tk git cmake build-essential libboost-dev libboost-iostreams-dev libboost-python-dev swig libfftw3-dev libgsl-dev python3-gi-cairo python3-scipy python3-matplotlib python3-pyqt5 python3-pyqt5.qtsvg python3-pyqt5.qtwebkit python3-pyqt5.qtserialport python3-lxml python3-yaml
 
            =====================================================================================================================
                                                   D) EDA Tools Installation -
@@ -73,9 +71,7 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                 Run the following commands (1,2)
           
                   1) sudo apt install --reinstall gcc g++ clang vim git build-essential cmake libgsl-dev libboost-dev libboost-program-options-dev
-                  2) sudo apt install --reinstall python3 python3-pip python3-tk git cmake build-essential libboost-dev \
-                     libboost-iostreams-dev libboost-python-dev swig libfftw3-dev libgsl-dev python3-gi-cairo python3-scipy \
-                     python3-matplotlib python3-pyqt5 python3-pyqt5.qtsvg python3-pyqt5.qtwebkit python3-pyqt5.qtserialport python3-lxml python3-yaml
+                  2) sudo apt install --reinstall python3 python3-pip python3-tk git cmake build-essential libboost-dev libboost-iostreams-dev libboost-python-dev swig libfftw3-dev libgsl-dev python3-gi-cairo python3-scipy python3-matplotlib python3-pyqt5 python3-pyqt5.qtsvg python3-pyqt5.qtwebkit python3-pyqt5.qtserialport python3-lxml python3-yaml
   
           Try to run 'cmake ../' again in the ~vsdflow/work/tools/OpenTimer/build Directory, if error presists,Use ChatGPT as Suggested Below
          
