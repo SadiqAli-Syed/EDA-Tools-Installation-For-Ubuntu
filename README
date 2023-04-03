@@ -1,7 +1,7 @@
 
 This Readme consists of solutions to Issues with OpenSource EDA_Tools installation that I, as newbie, have Faced and wasn't able to find a easy goto solution.
 
-                                       <---------------------------Addressed Issues------------------------------->
+                            <----------------------------------------Addressed Issues--------------------------------------------->
                  
                                 A) User not in Sudoers file,
                                 B) Running Virtual Machine in FullScreen and Copy-Pasting text btw Windows and Linux,
@@ -18,7 +18,7 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
            ---------------------------------------------------------------------------------------------------------------------
                          
            =====================================================================================================================                         
-                        A)To Become a SuperUser (sudo capable) -Run the Following Commands in Terminal(One at a Time)
+                        A) To Become a SuperUser (sudo capable) -Run the Following Commands in Terminal(One at a Time)
            =====================================================================================================================
            
                  1) su
@@ -29,7 +29,7 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                      become a Superuser in Ubuntu virtual machine"
 
            =====================================================================================================================
-                                                B)FullScreen & BiDirectional Clipboard-
+                                                B) FullScreen & BiDirectional Clipboard-
            =====================================================================================================================
                  1) sudo apt update 
                  2) sudo apt install build-essential gcc perl dkms linux-headers-$(uname -r) 
@@ -66,16 +66,16 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                  4) ./opensource_eda_tool_install.sh
 
            =====================================================================================================================
-                                                  E)Errors and Failure with OpenTimer:-
+                                                  E) Errors and Failure with OpenTimer:-
            =====================================================================================================================
            
            $ "Cmake ../" or "make" Errors:
                 Run the following commands (1,2)
           
                   1) sudo apt install --reinstall gcc g++ clang vim git build-essential cmake libgsl-dev libboost-dev libboost-program-options-dev
-                  2) sudo apt install --reinstall python3 python3-pip python3-tk git cmake build-essential libboost-dev libboost-iostreams-dev \
-                     libboost-python-dev swig libfftw3-dev libgsl-dev python3-gi-cairo python3-scipy python3-matplotlib python3-pyqt5 python3-pyqt5.qtsvg \
-                     python3-pyqt5.qtwebkit python3-pyqt5.qtserialport python3-lxml python3-yaml
+                  2) sudo apt install --reinstall python3 python3-pip python3-tk git cmake build-essential libboost-dev \
+                     libboost-iostreams-dev libboost-python-dev swig libfftw3-dev libgsl-dev python3-gi-cairo python3-scipy \
+                     python3-matplotlib python3-pyqt5 python3-pyqt5.qtsvg python3-pyqt5.qtwebkit python3-pyqt5.qtserialport python3-lxml python3-yaml
   
           Try to run 'cmake ../' again in the ~vsdflow/work/tools/OpenTimer/build Directory, if error presists,Use ChatGPT as Suggested Below
          
