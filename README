@@ -16,6 +16,10 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                               "Network Moderating services like SOPHOS and Private DNS Settings causes Errors
                                                   in Installation of Packages"
            ---------------------------------------------------------------------------------------------------------------------
+           
+           
+           
+           
                          
            =====================================================================================================================                         
                         A) To Become a SuperUser (sudo capable) -Run the Following Commands in Terminal(One at a Time)
