@@ -1,16 +1,16 @@
 
 This Readme consists of solutions to Issues with OpenSource EDA_Tools installation that I, as newbie, have Faced and wasn't able to find a easy goto solution.
 
-                            <----------------------------------------Addressed Issues-------------------------------------------->
+           <----------------------------------------------Addressed Issues-------------------------------------------------->
                  
-                                A) User not in Sudoers file,
-                                B) Running Virtual Machine in FullScreen and Copy-Pasting text btw Windows and Linux,
-                                C) Installing all required Packages/Dependencies,
-                                D) EDA tools installation(Same as VSD's Method),Breaks the gcc & g++ packages by the end on of it
-                                   in an attempt to turn them to gcc--7, g++--7 versions and make them compatible with cmake,Fix
-                                   available in next Step,
-                                E) Fixing some issues with the above method ("Especially OpenTimer"),
-                                f) Testing if all mentioned Packages have been installed prope  
+                A) User not in Sudoers file,
+                B) Running Virtual Machine in FullScreen and Copy-Pasting text btw Windows and Linux,
+                C) Installing all required Packages/Dependencies,
+                D) EDA tools installation(Same as VSD's Method),Breaks the gcc & g++ packages by the end on of it
+                   in an attempt to turn them to gcc--7, g++--7 versions and make them compatible with cmake,Fix
+                   available in next Step,
+                E) Fixing some issues with the above method ("Especially OpenTimer"),
+                f) Testing if all mentioned Packages have been installed prope  
                                            
            <----------------INSTALL Proton Vpn or any VPN OF YOUR CHOICE AND CONNECT IT TO ANY LOCATION,----------------------->
                               "Network Moderating services like SOPHOS and Private DNS Settings causes Errors
