@@ -12,27 +12,30 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                                 E) Fixing some issues with the above method ("Especially OpenTimer"),
                                 f) Testing if all mentioned Packages have been installed prope  
                                            
-                         <-------------------INSTALL Proton Vpn or any VPN OF YOUR CHOICE AND CONNECT IT TO ANY LOCATION,----------------------->
-                            NETWORK MODERATING SERVICES LIKE SOPHOS & AD-BLOCKING Private DNS SETTINGS CAUSE ISSUES IN INSTALLATION OF PACKAGES
-                         ------------------------------------------------------------------------------------------------------------------------
+           <----------------INSTALL Proton Vpn or any VPN OF YOUR CHOICE AND CONNECT IT TO ANY LOCATION,----------------------->
+                              "Network Moderating services like SOPHOS and Private DNS Settings causes Errors
+                                                  in Installation of Packages"
+           ---------------------------------------------------------------------------------------------------------------------
                          
-                         
-   A)To Become a SuperUser (sudo capable) -Run the Following Commands in Terminal(One at a Time)
-
+           =====================================================================================================================                         
+                        A)To Become a SuperUser (sudo capable) -Run the Following Commands in Terminal(One at a Time)
+           =====================================================================================================================
+           
                  1) su
                  2) sudo nano /etc/sudoers
-                        -----Go to the Bottom and type <UserName> ALL=(ALL) ALL, Replace <UserName> with your username in the Ubuntu-----
+                     ---Go to the Bottom and type <UserName> ALL=(ALL) ALL, Replace <UserName> with your username in the Ubuntu---
                  3) usermod -aG sudo <UserName>
-                    #For further Assistance in case of failure, refer YT Tutorials on "How to add user to sudoers file/How to become
-                    #a Superuser in Ubuntu virtual machine"
+                    #For further Assistance in case of failure, refer YT Tutorials on "How to add user to sudoers file/How to \
+                     become a Superuser in Ubuntu virtual machine"
 
-                                   ==========================================================================
-   B)FullScreen & BiDirectional Clipboard-
-
+           =====================================================================================================================
+                                                B)FullScreen & BiDirectional Clipboard-
+           =====================================================================================================================
                  1) sudo apt update 
                  2) sudo apt install build-essential gcc perl dkms linux-headers-$(uname -r) 
   
-                 #From "Devices" option in top bar,Click InsertGuest Additions Disk, wait for few secs and click on cd Icon in Docker,Rightclick & open in terminal
+                 #From "Devices" option in top bar,Click InsertGuest Additions Disk, wait for few secs and click on cd Icon in Docker,
+                  Rightclick & open in terminal
                  
                  3) findmnt  
                  
@@ -43,9 +46,9 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                  6) PowerOff the ubuntu virtual machine and click settings Icon on right in the Oracle VM VirtualBox app,
                     Navigate to General>Advanced>Shared Clipboard and select Bidirectional
 
-                                    =========================================================================
-   C) Installing Pre-Requisite Packages/Dependencies -
-
+           =====================================================================================================================
+                                                 C) Installing Pre-Requisite Packages/Dependencies -
+           =====================================================================================================================
                  1) sudo apt update
                  2) sudo apt upgrade
                  3) sudo apt install gcc g++ clang vim git build-essential cmake libgsl-dev libboost-dev libboost-program-options-dev
@@ -53,17 +56,19 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                     libboost-python-dev swig libfftw3-dev libgsl-dev python3-gi-cairo python3-scipy python3-matplotlib python3-pyqt5 \
                     python3-pyqt5.qtsvg python3-pyqt5.qtwebkit python3-pyqt5.qtserialport python3-lxml python3-yaml
 
-                                      =========================================================================
-   D) EDA Tools Installation -
-
+           =====================================================================================================================
+                                                  D) EDA Tools Installation -
+           =====================================================================================================================
+           
                  1) git clone https://github.com/kunalg123/vsdflow.git
                  2) cd vsdflow
                  3) chmod 777 opensource_eda_tool_install.sh
                  4) ./opensource_eda_tool_install.sh
 
-                                       =========================================================================
-   E)Errors and Failure with OpenTimer:-
-  
+           =====================================================================================================================
+                                                  E)Errors and Failure with OpenTimer:-
+           =====================================================================================================================
+           
            $ "Cmake ../" or "make" Errors:
                 Run the following commands (1,2)
           
@@ -113,8 +118,9 @@ This Readme consists of solutions to Issues with OpenSource EDA_Tools installati
                   8)opentimer
                   #----------exit bit by typing "exit"---------------
                   
-                                         =========================================================================
-   F)Testing,Run One by One.
+           =====================================================================================================================
+                                                         F) Testing,Run One by One.
+           =====================================================================================================================           
             #--------You can exit programs by typing exit-------------------
             #--------NOTE:Some programs may say error but do show some output,They are perfectly fine,Issue is if they output Nothing------ 
 
