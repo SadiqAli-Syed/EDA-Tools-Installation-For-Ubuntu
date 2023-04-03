@@ -1,0 +1,24 @@
+                                  <----------------------Tools to be installed---------------------------->
+                    
+                                                           1)NGSPICE,                                       
+                                                           2)Magic Layout editor,
+                                                           3)eSim,
+                                                           4)OpenTimer STA Tool,
+                                                           5)Yosys Synthesis Tool.
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                       <---------------Synaptic Package Manager Setup---------------->
+                                                   commands: 1)sudo apt-get update
+                                                             2)sudo apt-get install synaptic
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+1)NGSPICE :
+       (1)Open the terminal and type "sudo synaptic",
+       (2)Synaptic package manager app will open,Locate the search Icon on top right and search NGSPICE,
+       (3)In the resulting tools locate "ngspice" and click on it and choose "Mark For Installation",
+       (4)In the Top-Left Region, locate the "Apply" button and apply the changes,NGSPICE is now Installed!
+       (5)you can verify it by opening terminal and type "ngspice", If you get any output like 
+          "ngspice 1 ->" it means the installation is Successful.
+-------------------------------------------------------------------------------------------------------------------------------------------------          
+2)Magic Layout Editor :
+       (1)
+       
